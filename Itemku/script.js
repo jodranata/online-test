@@ -56,7 +56,7 @@ function solutionTwo(N, users) {
     .map(u => u.stage);
 }
 
-function solution(relation) {
+function solutionThree(relation) {
   const relCol = relation.reduce((acc, curr) => {
     return acc.map((item, idx) => {
       if (typeof item === 'string') return [item, curr[idx]];
